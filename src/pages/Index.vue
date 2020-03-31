@@ -7,7 +7,7 @@
         </template>
         <span class="text-subtitle1">សូមស្កេនទំនិញ</span>
       </q-banner>
-      <q-card-section>
+      <q-card-section v-if="Object.keys(scannedStock).length">
         <div class="text-h5 text-primary">{{scannedStock.name}}</div>
         <q-list separator>
           <q-item v-for="(i,index) in scannedStock.purchase_detail" :key="index" class="q-my-sm shadow-1">

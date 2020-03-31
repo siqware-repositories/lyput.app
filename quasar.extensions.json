@@ -5,32 +5,5 @@
       "lastQuasarVersion": "1.9.9",
       "lastIdeHelperVersion": "1.0.0-alpha.3"
     }
-  },
-  "@quasar/icon-genie": {
-    "minify_dev": "pngquant",
-    "minify_build": "zopfli",
-    "cordova": {
-      "background_color": "#000074",
-      "splashscreen_type": "overlay"
-    },
-    "build_always": true,
-    "__internal": {
-      "dev": {
-        "cordova": {
-          "iconHash": "6cd6bfb96411d0e03ef0b1fdc6703f80",
-          "splashscreenHash": "89fd4938e81e22d23bbb400741d2f12d",
-          "splashscreenType": "overlay",
-          "backgroundColor": "#000074"
-        }
-      },
-      "build": {
-        "cordova": {
-          "iconHash": "6cd6bfb96411d0e03ef0b1fdc6703f80",
-          "splashscreenHash": "89fd4938e81e22d23bbb400741d2f12d",
-          "splashscreenType": "overlay",
-          "backgroundColor": "#000074"
-        }
-      }
-    }
   }
 }
