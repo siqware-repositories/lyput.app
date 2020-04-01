@@ -149,11 +149,14 @@
         },
         created() {
             let self = this;
+            self.$q.loading.show();
             self.$store.dispatch('product/productCount').then(function () {
+                self.$q.loading.hide();
                 if (parseInt(self.getProductCount)>self.getProduct.length){
                     self.$q.loading.show();
                     self.$store.dispatch('product/indexProduct').then(function () {
-                        self.$q.loading.hide()
+                        self.$q.loading.hide();
+                        self.$router.go()
                     })
                 }
             });
