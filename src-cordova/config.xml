@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="lyput.siqware.com" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Lyput Scan Product</name>
+    <name>ស្កេនទំនិញម្ចាស់</name>
     <description>Lyput Scan Product</description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-      Lyput Scan Product
+      ស្កេនទំនិញម្ចាស់
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
